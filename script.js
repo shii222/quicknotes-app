@@ -11,6 +11,8 @@ const searchInput = document.querySelector("#search-input");
 let notes = [];
 
 
+// Persistence and search features
+
 // Save notes to localStorage
 function saveNotes() {
   localStorage.setItem("quicknotes", JSON.stringify(notes));
